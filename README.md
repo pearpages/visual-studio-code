@@ -180,3 +180,36 @@ It will create the following files:
 
 - tsd.d.ts 
 - tsd.json
+
+### Snippets
+
+Typing *fun* and then pressing *tab*.
+
+```js
+function name(params) {
+    
+}
+```
+
+Or we can create ours:
+
+- Go to *Preferences* -> *User Snippets* select the language and edit the file.
+
+```json
+// javascript.json
+// in this example we also use variables ${var1}, ${var2}, etc.
+// $0 leaves the cursor where we want it to be after calling the snippet
+{
+	"Hello World Function": {
+		"prefix": "hello",
+		"body": [
+			"function helloWorld(${var1}) {",
+			"\tconsole.log('Hello World '+${var1});",
+            "\t$0",				
+			"}"
+		]
+	}
+}
+``` 
+
+[John Papa's user snippets](http://jpapa.me/ngstyles)

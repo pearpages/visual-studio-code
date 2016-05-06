@@ -168,5 +168,15 @@ div.container
 The following command will create a *typings* folder. 
 
 ```bash
+# -s is to save it out
+# -a is for action
+# -o overwrite in case is already there
+# -r recursive search inside all the references
+
 tsd query -r -o -a install bardjs angular jquery chai mocha angular-ui-router angular-sanitize angular-mocks angular-animate bootstrap moment-node moment sinon toastr -s
 ```
+
+It will create the following files:
+
+- tsd.d.ts 
+- tsd.json

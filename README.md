@@ -70,6 +70,14 @@ MAC: `Shift + Command + P`
 
 Windows: `Shift + Ctrl + P`
 
+- Look for a file: `Ctrl + P`or `Command + P`
+- Browse recent files: `Ctrl + P` or `Command + P`
+- Toggle the sidebar: `Ctrl + B` or `Command + B` 
+- Navigate History: `Ctrl + Tab` or `Command + Tab`
+- Open a css sheet or another linked file: `Ctrl + click` or `Command + click`
+- Open a css sheet or another linked file next to the current file: `Ctrl + Alt + click` or `Command + Option + click`
+- Show help: just type `?`
+
 ### Command Line Options
 
 In Windows: Open the current folder in the editor ```code .```

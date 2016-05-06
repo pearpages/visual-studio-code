@@ -1,0 +1,5 @@
+{
+    "hello":"me",
+    "this": should be an error,
+    "but": "this not"
+}

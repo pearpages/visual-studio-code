@@ -156,8 +156,17 @@ div.container
 - Multicursors, I've changed my configuration in user settigngs to follow `Ctrl + Alt + 2numpad` and `Ctrl + Alt + 8numpad`
 - Select all occurrences `Ctrl + F2` or `Ctrl + Shift + L`
 - Progressively selecting `Ctrl + D` and Skipping one `Ctrl + K`
+- Copy one line up, copy one line down `Shift + Alt + UpArrow`, `Shift + Alt + DownArrow`
 
 ### Intellisense
 
 - `Control + Space` in a bower.json or package.json, jsconfig.json file for example, will give us suggestions for any property
 - Also we can use `Control + Space`in a **css** file.
+
+### tsd
+
+The following command will create a *typings* folder. 
+
+```bash
+tsd query -r -o -a install bardjs angular jquery chai mocha angular-ui-router angular-sanitize angular-mocks angular-animate bootstrap moment-node moment sinon toastr -s
+```

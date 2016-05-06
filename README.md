@@ -77,6 +77,9 @@ Windows: `Shift + Ctrl + P`
 - Open a css sheet or another linked file: `Ctrl + click` or `Command + click`
 - Open a css sheet or another linked file next to the current file: `Ctrl + Alt + click` or `Command + Option + click`
 - Show help: just type `?`
+- Symbol : `@`
+- Symbol by type: `@:`
+- Go to line: `Control + G` or `Command + G`
 
 ### Command Line Options
 
@@ -108,9 +111,53 @@ code -g -r src/client/app/home.controller.js:10:8 # the same but in the last ope
 code . -n
 ```
 
-### Open multiple contigous windows
+### Side by Side editing
 
-In Mac: Command + 1, Command + 2, Command + 3, ...
+In Mac: `Command + 1, Command + 2, Command + 3, ...`
 
-In Windows: Ctrl + 1, Ctrl + 2, Ctrl + 3, ...
+In Windows: `Ctrl + 1, Ctrl + 2, Ctrl + 3, ...`
 
+- Open a new windo `Control + \`
+- Close current window: `Control + W`
+
+### Important Keyboard Shortcuts
+
+[Customization](http://code.visualstudio.com/Docs/customization)
+[John Papa](http://www.johnpapa.net/visual-studio-code)
+
+- Command Palette `Control + Shift + P`
+- File Navigation `Control + P`
+- See all options: `?` and any of the prior
+
+### Language Features
+
+The best support is for C# and Typescript.
+
+[See them in the Visual Studio Code Webpage](http://code.visualstudio.com/Docs/languages)
+
+## Refactoring
+
+### HTML
+
+- Close tags `Control + Shift + '`
+- Open tags `Control + Shift + ¡` 
+
+#### Emmet
+
+[Syntax](http://docs.emmet.io)
+
+```
+div>ul>li(lipsum10)*5
+div.container
+```
+
+### Selecting and Cursors
+
+- Multicursors, I've changed my configuration in user settigngs to follow `Ctrl + Alt + 2numpad` and `Ctrl + Alt + 8numpad`
+- Select all occurrences `Ctrl + F2` or `Ctrl + Shift + L`
+- Progressively selecting `Ctrl + D` and Skipping one `Ctrl + K`
+
+### Intellisense
+
+- `Control + Space` in a bower.json or package.json, jsconfig.json file for example, will give us suggestions for any property
+- Also we can use `Control + Space`in a **css** file.

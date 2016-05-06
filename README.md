@@ -77,6 +77,9 @@ Windows: `Shift + Ctrl + P`
 - Open a css sheet or another linked file: `Ctrl + click` or `Command + click`
 - Open a css sheet or another linked file next to the current file: `Ctrl + Alt + click` or `Command + Option + click`
 - Show help: just type `?`
+- Symbol : `@`
+- Symbol by type: `@:`
+- Go to line: `Control + G` or `Command + G`
 
 ### Command Line Options
 
@@ -108,9 +111,20 @@ code -g -r src/client/app/home.controller.js:10:8 # the same but in the last ope
 code . -n
 ```
 
-### Open multiple contigous windows
+### Side by Side editing
 
-In Mac: Command + 1, Command + 2, Command + 3, ...
+In Mac: `Command + 1, Command + 2, Command + 3, ...`
 
-In Windows: Ctrl + 1, Ctrl + 2, Ctrl + 3, ...
+In Windows: `Ctrl + 1, Ctrl + 2, Ctrl + 3, ...`
 
+- Open a new windo `Control + \`
+- Close current window: `Control + W`
+
+### Importan Keyboard Shortcuts
+
+[Customization](http://code.visualstudio.com/Docs/customization)
+[John Papa](http://www.johnpapa.net/visual-studio-code)
+
+- Command Palette `Control + Shift + P`
+- File Navigation `Control + P`
+- See all options: `?` and any of the prior

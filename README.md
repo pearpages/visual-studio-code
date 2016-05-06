@@ -62,23 +62,27 @@ Are/Have/Can:
 - Made by the authors of Monaco and Eclipse
 - TypeScript Server
 
-## Commapnd Palette
+## Using and Configuring Visual Studio Code
+
+### Command Palette
 
 MAC: `Shift + Command + P`
 
 Windows: `Shift + Ctrl + P`
 
-## Command Line Options
+### Command Line Options
 
 In Windows: Open the current folder in the editor ```code .```
 
 In Mac: 
 
-[Commands are available here](https://code.visualstudio.com/Docs/setup)
+[Use this link to setup the CLI in Mac](https://code.visualstudio.com/Docs/setup)
 
 ```bash
 # ~/bash_profile
+open ~/bash_profile
 code () {VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+source ~/bash_profile
 ```
 
 ```bash
@@ -90,4 +94,15 @@ code src/another/app -n
 
 # open a new instance to specific line and column
 code -g src/client/app/home.controller.js:10:8
+code -g -r src/client/app/home.controller.js:10:8 # the same but in the last opened instance
+
+# open a new project in a new instance
+code . -n
 ```
+
+### Open multiple contigous windows
+
+In Mac: Command + 1, Command + 2, Command + 3, ...
+
+In Windows: Ctrl + 1, Ctrl + 2, Ctrl + 3, ...
+

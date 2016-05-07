@@ -1,6 +1,7 @@
 import {awesomeFunction} from './whatever-dependency'
 
 function whatever():number {
+    awesomeFunction();
     return 3;
 }
 

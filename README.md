@@ -213,3 +213,9 @@ Or we can create ours:
 ``` 
 
 [John Papa's user snippets](http://jpapa.me/ngstyles)
+
+### Go to definition, find references, and Peek
+
+In the mac you may want to disable the special function keys of the keyboard. Also you might need to go to keyboard shortcuts and look if there's any collision with the *Mission Control*.
+
+```F12, Alt F12, Shift F12```

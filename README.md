@@ -218,4 +218,16 @@ Or we can create ours:
 
 In the mac you may want to disable the special function keys of the keyboard. Also you might need to go to keyboard shortcuts and look if there's any collision with the *Mission Control*.
 
-```F12, Alt F12, Shift F12```
+```bash
+F12 # go to definition
+Alt F12 # go to the definition, but without moving from where you are
+Shift F12 #find all references
+```
+
+### References in Typescript
+
+Keywords: **references**, **peek**.
+
+- We can hold Command/Control to see the definition
+- Click with Command/Control to go the file
+- Click with Option/Alt to open the file in a new window

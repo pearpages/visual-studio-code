@@ -231,3 +231,9 @@ Keywords: **references**, **peek**.
 - We can hold Command/Control to see the definition
 - Click with Command/Control to go the file
 - Click with Option/Alt to open the file in a new window
+
+### Finding symbols
+
+To find symbols, and symbols categorized ```@, @:```
+
+To change the symbol **Everywhere** whe can use ```F2```

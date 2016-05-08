@@ -1,7 +1,7 @@
-import {awesomeFunction} from './whatever-dependency'
+import {amazingFunction} from './whatever-dependency'
 
 function whatever():number {
-    awesomeFunction();
+    amazingFunction();
     return 3;
 }
 

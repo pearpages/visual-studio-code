@@ -1,3 +1,8 @@
+## Useful Links
+
+[Customization of Visual Studio Code](https://code.visualstudio.com/docs/customization/overview)
+[Visual Studio Code and Angular](https://blogs.msdn.microsoft.com/vscode/2015/05/21/getting-started-with-angular-and-visual-studio-code/)
+
 ## Why
 
 ### Top main reasons
@@ -237,3 +242,14 @@ Keywords: **references**, **peek**.
 To find symbols, and symbols categorized ```@, @:```
 
 To change the symbol **Everywhere** whe can use ```F2```
+
+### Errors and Formatting
+
+#### Formatting
+
+We click ```Command or Ctrl P``` and once there ```>Format Code````
+
+#### Checking Errors
+
+The same as before this time ```!``` and this shows the errors, then in each error ```F8``` and we get the intellisense.
+

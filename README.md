@@ -253,3 +253,7 @@ We click ```Command or Ctrl P``` and once there ```>Format Code````
 
 The same as before this time ```!``` and this shows the errors, then in each error ```F8``` and we get the intellisense.
 
+#### Move the lines up and down
+
+```alt or option and arrow up or down```
+

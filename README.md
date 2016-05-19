@@ -288,7 +288,8 @@ There are:
 	"**/*.js": {
 		"when": "$(basename).ts" /* hides js files when ts exist */ 
 		}
-}```
+}
+```
 
 #### Workspace
 

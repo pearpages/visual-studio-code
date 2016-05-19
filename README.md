@@ -257,3 +257,34 @@ The same as before this time ```!``` and this shows the errors, then in each err
 
 ```alt or option and arrow up or down```
 
+## Themes and Preferences
+
+### Theme
+
+```Ctrl + Shift + P``` ```>Preferences Color Theme```
+
+### Preferences
+
+```File > Preferences > User Settings```
+
+- "editor.formatOnType": true
+- "editor.tabSize": 4
+- "editor.wrappingColumn": 120
+- "files.exclude": {}
+- "editor.fontFamily": "Courier"
+- "editor.fontsize": 14
+
+```json
+// files.exclude
+{
+	"**/.git": true, 
+	"**/.DS_Store": true, 
+	"**/*.js": {
+		"when": "$(basename).ts" /* hides js files when ts exist */ 
+		}
+}```
+
+## Language Features
+
+
+

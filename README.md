@@ -347,7 +347,11 @@ It's a json file
 
 ### Markdown
 
+- ```Ctrl+Shift+V``` let's you do a preview.
 
+### Javascript
 
+- Format code ```Alt+Shift+F```
+- ```Ctrl+.``` to fix warnings
 
-
+#### Intellisense 

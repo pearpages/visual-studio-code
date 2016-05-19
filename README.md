@@ -298,6 +298,30 @@ Creates **settings.json** file stored in the **.settings** folder.
 
 When editing the default preferences ```Ctrl + Shift + P``` and use ```@``` or ```:@```
 
+### Keybindings
+
+[code.visualstudio.com/Docs/customization](code.visualstudio.com/Docs/customization)
+
+|keys|Command|
+|:--|:--|
+|Shift+Alt+F|Format Code|
+|Alt+F12|Peek|
+|Shift+F12|Show al references|
+|F12|Go to Definition|
+|Ctrl+P|Go to File or History|
+|Ctrl + 1|Focus on frist pane|
+
+#### Defining Keybindings
+
+It's a json file
+
+```json
+{
+	"key": "ctrl+shift+l",
+	"command": "workbench.action.changeToLightTheme"
+}
+```
+
 ## Language Features
 
 

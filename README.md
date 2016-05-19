@@ -385,3 +385,14 @@ If we use ```>task``` it will look for gulp tasks.
 
 ### Typescript
 
+- cross references
+- symbols
+- show definitions
+- tsd.d.ts
+
+**tsconfig.json** (the equivalent of jsconfig.json)
+
+- we can also use tasks that we can define through ```Ctr+P``` ```>task```
+
+
+

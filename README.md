@@ -366,3 +366,22 @@ We use the library **tsd**
 npm install tsd -g
 tsd query -r --o -a install angular --save
 ```
+
+### ES6
+
+In the intellisense of visual code reads the file **jsconfig.json** and changes.
+
+```json
+{
+	"compilerOptions": {
+		"target": "ES6"
+	}
+}
+```
+
+### Gulp
+
+If we use ```>task``` it will look for gulp tasks.
+
+### Typescript
+

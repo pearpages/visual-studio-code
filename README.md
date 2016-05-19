@@ -355,3 +355,14 @@ It's a json file
 - ```Ctrl+.``` to fix warnings
 
 #### Intellisense 
+
+Definetely Typed: 
+
+Example ```angular.d.ts```.
+
+We use the library **tsd**
+
+```bash
+npm install tsd -g
+tsd query -r --o -a install angular --save
+```

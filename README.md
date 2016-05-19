@@ -265,6 +265,12 @@ The same as before this time ```!``` and this shows the errors, then in each err
 
 ### Preferences
 
+There are:
+
+* Default
+* User
+* Workspace (for specific project)
+
 ```File > Preferences > User Settings```
 
 - "editor.formatOnType": true
@@ -283,6 +289,14 @@ The same as before this time ```!``` and this shows the errors, then in each err
 		"when": "$(basename).ts" /* hides js files when ts exist */ 
 		}
 }```
+
+#### Workspace
+
+Creates **settings.json** file stored in the **.settings** folder.
+
+### Scroll the default preferences
+
+When editing the default preferences ```Ctrl + Shift + P``` and use ```@``` or ```:@```
 
 ## Language Features
 

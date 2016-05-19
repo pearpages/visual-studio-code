@@ -325,5 +325,29 @@ It's a json file
 
 ## Language Features
 
+- C# and Typescript are totally featured
+- CSS, HTML, Javascript, JSON, Less and Sass hava Intellisense and linting.
+
+### HTML
+
+- We can use **emmet**
+- use angular directives inside
+
+### CSS and Less
+
+- ```Ctrl+Shift+O``` shows as the CSS for tag elements
+- Intellisense with properties
+- colors
+- emmet
+
+### JSON
+
+- Navigate through ```Ctrl+Shift+O```
+- ```Ctrl+Space``` to check for options
+
+### Markdown
+
+
+
 
 

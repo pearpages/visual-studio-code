@@ -396,6 +396,11 @@ If we use ```>task``` it will look for gulp tasks.
 
 ## Version Control and Git
 
+- Git Viewlet
+- Status Bar
+- File Gutter indicators
+- Output
+
 ## Debugging
 
 ## Integrating Code with External Tools via Tasks
